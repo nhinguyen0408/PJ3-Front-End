@@ -1,0 +1,43 @@
+
+<div class="content-body">
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-4 col-xl-4">
+            <div class="card">
+                <div class="card-body">
+                  <h3>Thêm Thể loại</h3>
+                  <a routerLink="/admin/category" class="btn btn-success">Back</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-8 col-xl-8">
+            <div class="card">
+
+                <div class="card-body">
+                    <h3>Thôn tin Thể loại</h3>
+                    <form action="#" class="form-profile" [formGroup]="categoryForm" (ngSubmit)="onSubmit()">
+                        <div class="form-group">
+                          <input type="text" class="form-control input-default" formControlName='name' placeholder="Tên thể loại">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control input-default" formControlName='title' placeholder="Tiêu đề">
+                        </div>
+                        
+                        <div class="d-flex align-items-center">
+
+                            <button class="btn btn-primary px-3">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+
+            </div>
+
+            <div class="card">
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+

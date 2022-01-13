@@ -27,9 +27,39 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/plugins/pg-calendar/css/pignose.calendar.min.css",
+              "src/assets/plugins/chartist/css/chartist.min.css",
+              "src/assets/plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css",
+              "src/assets/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.js",
+              "./node_modules/jquery/dist/jquery.js",
+              "./src/assets/plugins/common/common.min.js",
+              "./src/assets/js/custom.min.js",
+              "./src/assets/js/settings.js",
+              "./src/assets/js/gleek.js",
+              "./src/assets/js/styleSwitcher.js",
+              "./src/assets/plugins/chart.js/Chart.bundle.min.js",
+              "./src/assets/plugins/circle-progress/circle-progress.min.js",
+              "./src/assets/plugins/d3v3/index.js",
+              "./src/assets/plugins/topojson/topojson.min.js",
+              "./src/assets/plugins/datamaps/datamaps.world.min.js",
+              "./src/assets/plugins/raphael/raphael.min.js",
+              "./src/assets/plugins/morris/morris.min.js",
+              "./src/assets/plugins/moment/moment.min.js",
+              "./src/assets/plugins/pg-calendar/js/pignose.calendar.min.js",
+              "./src/assets/plugins/chartist/js/chartist.min.js",
+              "./src/assets/plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js",
+              "./src/assets/plugins/tables/js/jquery.dataTables.min.js",
+              "./src/assets/plugins/tables/js/datatable/dataTables.bootstrap4.min.js",
+              "./src/assets/plugins/tables/js/datatable-init/datatable-basic.min.js",
+              "./src/assets/plugins/summernote/dist/summernote.min.js",
+              "./src/assets/plugins/summernote/dist/summernote-init.js",
+              "./node_modules/data-table/index.js",
+              "./src/assets/js/dashboard/dashboard-1.js"
+            ]
           },
           "configurations": {
             "production": {

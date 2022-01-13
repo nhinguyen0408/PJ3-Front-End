@@ -1,0 +1,99 @@
+<div class="nk-sidebar">
+  <div class="nk-nav-scroll">
+      <ul class="metismenu" id="menu">
+          <li class="nav-label" style="font-size: 15px; font-weight: bold; ">Dashboard</li>
+          <li>
+              <a class="has-arrow" [routerLink]="['home']" aria-expanded="false">
+                  <i class="icon-speedometer menu-icon"></i><span class="nav-text">Dashboard</span>
+              </a>
+          </li>
+          <li>
+            <a class="has-arrow" routerLink="../admin/warehouse" aria-expanded="false">
+                <i class="icon-speedometer menu-icon"></i><span class="nav-text">Thống kê Kho (Xuất/Nhập)</span>
+            </a>
+          </li>
+          <!-- <li class="mega-menu mega-menu-sm">
+              <a class="has-arrow" aria-expanded="false">
+                  <i class="icon-globe-alt menu-icon"></i><span class="nav-text">Layouts</span>
+              </a>
+          </li> -->
+          <li class="nav-label" style="font-size: 15px; font-weight: bold;">Quản lý tài khoản</li>
+          <li>
+              <a class="has-arrow" aria-expanded="false" routerLink="../admin/profile">
+                  <i class="icon-envelope menu-icon"></i> <span class="nav-text">Sửa thông tin</span>
+              </a>
+          </li>
+          <li>
+            <a class="has-arrow" aria-expanded="false" [routerLink]="['employee-manager']">
+                <i class="icon-envelope menu-icon"></i> <span class="nav-text">Quản lý nhân viên</span>
+            </a>
+        </li>
+          <!-- <li>
+              <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                  <i class="icon-screen-tablet menu-icon"></i><span class="nav-text">Apps</span>
+              </a>
+          </li> -->
+
+          <li class="nav-label" style="font-size: 15px; font-weight: bold;">Quản lý kho</li>
+
+          <li>
+              <a aria-expanded="true" [routerLink]="['product/create']">
+                  <i class="icon-badge menu-icon"></i><span class="nav-text">Thêm sản phẩm</span>
+              </a>
+          </li>
+          <li>
+            <a aria-expanded="false" [routerLink]="['product']">
+              <i class="icon-badge menu-icon"></i><span class="nav-text">Danh sách sản phẩm</span>
+            </a>
+          </li>
+
+          <li class="nav-label" style="font-size: 15px; font-weight: bold;">Quản lý Hãng, Thể Loại</li>
+
+          <li>
+              <a aria-expanded="true" [routerLink]="['production']">
+                  <i class="icon-badge menu-icon"></i><span class="nav-text">Hãng</span>
+              </a>
+          </li>
+          <li>
+            <a aria-expanded="false" [routerLink]="['category']">
+              <i class="icon-badge menu-icon"></i><span class="nav-text">Thể loại</span>
+            </a>
+          </li>
+
+          <li class="nav-label" style="font-size: 15px; font-weight: bold;">Quản Đơn hàng</li>
+          <li>
+            <a aria-expanded="false" [routerLink]="['order']">
+              <i class="icon-badge menu-icon"></i><span class="nav-text">Đơn hàng</span>
+            </a>
+          </li>
+          <li>
+              <a aria-expanded="true" [routerLink]="['order-confirmation']">
+                  <i class="icon-badge menu-icon"></i><span class="nav-text">Danh sách chờ xác nhận</span>
+              </a>
+          </li>
+          <li>
+            <a aria-expanded="false" [routerLink]="['order/confirmed']">
+              <i class="icon-badge menu-icon"></i><span class="nav-text">Đơn hàng đã xác nhận</span>
+            </a>
+          </li>
+          <li>
+            <a aria-expanded="false" [routerLink]="['order/aborted']">
+              <i class="icon-badge menu-icon"></i><span class="nav-text">Đơn hàng đã hủy</span>
+            </a>
+          </li>
+
+          <li class="nav-label" style="font-size: 15px; font-weight: bold;">Quản Lý Voucher</li>
+
+          <li>
+              <a aria-expanded="false">
+                  <i class="icon-badge menu-icon"></i><span class="nav-text">Tạo Voucher</span>
+              </a>
+          </li>
+          <li>
+              <a aria-expanded="false">
+                <i class="icon-badge menu-icon"></i><span class="nav-text">Danh sách Voucher</span>
+              </a>
+          </li>
+      </ul>
+  </div>
+</div>
